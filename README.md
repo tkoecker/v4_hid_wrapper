@@ -1,6 +1,6 @@
 # HID Keyboard and Mouse wrapper for the Vampire 4
 
-The Vampire 4, in its current state, only supports a limited amount of USB Mice and Keyboards. This is a workaround to make more of them work with the V4.
+The Vampire 4, in its current state, only supports a limited amount of USB Mice and Keyboards. This is a workaround to make more of them work with the V4. Also for already working devices that need to be unplugged and plugged in again in order to get recognized the adapter removes this requirement.
 
 It uses combination of a "Pro Micro" (3.3V / 8 MHz version) Arduino clone, and a "Mini USB Host Shield 2.0" board as an adapter in between the keyboard/mouse and the V4.
 
