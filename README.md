@@ -18,3 +18,6 @@ To build the software for the adapter the following is needed:
   get an USB core that uses low-speed USB, with only one boot protocol HID keyboard or mouse (depending on a jumper setting)
 
 By default the adapter software is in mouse mode. If a jumper is put between pin 2 and GND the adapter is in keyboard mode.
+
+TODO:
+- An upgraded version with two "Pro Micro" boards stacked on each other could be done that splits composite mouse + keyboard devices (i.e. one USB dongle for both) into a separate mouse and keyboard device, each with its own plug.
