@@ -23,6 +23,10 @@
 
 ![Build](img/build_5.jpg)
 
+- If you plan to put the adapter into a 3D printed case (see https://www.thingiverse.com/thing:4397113) you should add a wire to the reset pin of the bottom "Pro Micro" in order to keep it accessible and to be able to reprogram the "Pro Micro" later on.
+
+![Build](img/build_6.jpg)
+
 - Flash the software on both "Pro Micro"s.
 
 The bottom "Pro Micro" will act as an USB mouse.

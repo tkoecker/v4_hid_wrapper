@@ -19,6 +19,8 @@ Build instructions to build the one device adapter can be found at:
 Build instructions to build the two device version:
 [two_device_build.md](two_device_build.md)
 
+3D printable cases can be found at: https://www.thingiverse.com/thing:4397113
+
 To build the software for the adapter the following is needed:
 - Use Arduino IDE v1.6.5-r5 (needed for the changes below - the last version before a refactoring of the USB stack)
 - Install the "SparkFun AVR Boards" (version 1.1.6, newer ones do not work anymore with the Arduino IDE v1.6.5-r5)
@@ -31,4 +33,3 @@ On the one device version the adapter software is in mouse mode by default. If a
 
 TODO:
 - Check if mice/keyboards connected via USB hubs can be supported (which would make it possible to share the same mouse and keyboard on different hosts via an USB switch).
-- Create a 3D printed case.
