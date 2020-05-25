@@ -21,7 +21,8 @@ Build instructions to build the two device version:
 
 To build the software for the adapter the following is needed:
 - Use Arduino IDE v1.6.5-r5 (needed for the changes below - the last version before a refactoring of the USB stack)
-- Install the "USB Host Shield Library 2.0"
+- Install the "SparkFun AVR Boards" (version 1.1.6, newer ones do not work anymore with the Arduino IDE v1.6.5-r5)
+- Install the "USB Host Shield Library 2.0" (version 1.3.2 is fine (currently the latest one))
 - Apply the changes from https://github.com/tkoecker/Arduino/commit/e6783cb5e4b7e1dc8abc4932b3e3543ad793c6ff
   and https://github.com/tkoecker/Arduino/commit/790e3472ea00df73c100a9cd8d93a1ec98198a04 to
   get an USB core that uses low-speed USB, with only one boot protocol HID keyboard or mouse.
